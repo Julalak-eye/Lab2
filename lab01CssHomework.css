@@ -1,0 +1,65 @@
+
+body {
+    background-color: #bda464
+}
+
+h1 {
+    color: blue;
+}
+
+li {
+    color: #0000ff;
+}
+
+p {
+    background-color: orange;
+}
+
+h3 {
+    border: red solid 5px;
+}
+
+abbr {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.explanation {
+    color: red;
+}
+
+#zen-benefits p{
+    background-color: pink;
+}
+
+li + h2 {
+    background-color: red;
+}
+
+p em {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
